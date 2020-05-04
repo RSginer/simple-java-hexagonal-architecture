@@ -1,7 +1,7 @@
-package app.printing.Application.Book.Find;
+package app.printing.Application.Book;
 
-import app.printing.Domain.Book.Find.BooksFinder;
-import app.printing.Domain.Book.Print.BookPrinter;
+import app.printing.Domain.Book.Service.Find.BooksFinder;
+import app.printing.Domain.Book.Service.Print.BookPrinter;
 import app.printing.Domain.Book.Book;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package app.printing.Infrastructure.Controller;
 
-import app.printing.Application.Book.Find.FindAndPrintAllBooks;
+import app.printing.Application.Book.FindAndPrintAllBooks;
 
 public final class FindAndPrintAllBooksController {
     private final FindAndPrintAllBooks findAndPrintAllBooksService;

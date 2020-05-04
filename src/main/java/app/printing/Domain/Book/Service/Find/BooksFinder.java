@@ -1,4 +1,4 @@
-package app.printing.Domain.Book.Find;
+package app.printing.Domain.Book.Service.Find;
 
 import app.printing.Domain.Book.Book;
 

@@ -1,6 +1,6 @@
 package app.printing.Infrastructure.Printer.Txt;
 
-import app.printing.Domain.Book.Print.Printer;
+import app.printing.Domain.Book.Service.Print.Printer;
 import app.printing.Domain.Book.Book;
 
 public final class StandardOutputPrinter implements Printer {

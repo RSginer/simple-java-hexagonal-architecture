@@ -1,4 +1,4 @@
-package app.printing.Domain.Book.Print;
+package app.printing.Domain.Book.Service.Print;
 
 import app.printing.Domain.Book.Book;
 
