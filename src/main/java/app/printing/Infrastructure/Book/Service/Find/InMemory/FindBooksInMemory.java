@@ -1,4 +1,4 @@
-package app.printing.Infrastructure.Service.Book.Find.InMemory;
+package app.printing.Infrastructure.Book.Service.Find.InMemory;
 
 import app.printing.Domain.Book.Book;
 import app.printing.Domain.Book.Service.Find.FindBooksRepository;

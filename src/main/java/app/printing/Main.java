@@ -1,7 +1,7 @@
 package app.printing;
 
 import app.printing.Infrastructure.Controller.FindAndPrintAllBooksController;
-import app.printing.Infrastructure.Service.Book.Find.InMemory.FindBooksInMemory;
+import app.printing.Infrastructure.Book.Service.Find.InMemory.FindBooksInMemory;
 import app.printing.Infrastructure.Printer.Html.StandardOutputHtmlPrinter;
 
 import app.printing.Application.Book.FindAndPrintAllBooks;
