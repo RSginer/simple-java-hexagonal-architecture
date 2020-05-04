@@ -3,7 +3,7 @@ package app.printing;
 import app.printing.Domain.Book.Find.BooksFinder;
 import app.printing.Application.Book.Find.FindAndPrintAllBooks;
 import app.printing.Domain.Book.Print.BookPrinter;
-import app.printing.Infrastructure.Services.Book.Find.InMemory.FindBooksInMemory;
+import app.printing.Infrastructure.Service.Book.Find.InMemory.FindBooksInMemory;
 import app.printing.Infrastructure.Controller.FindAndPrintAllBooksController;
 import app.printing.Infrastructure.Printer.Html.StandardOutputHtmlPrinter;
 
