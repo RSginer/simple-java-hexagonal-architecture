@@ -29,7 +29,8 @@ public class Main {
                     JOptionPane.showInputDialog(
                             null,
                             " 1. Read books \n 2. Exit \n\n Choose an option",
-                            JOptionPane.QUESTION_MESSAGE)
+                            JOptionPane.QUESTION_MESSAGE
+                    )
             );
         } catch (NumberFormatException n) {
             System.out.println(n.getMessage());
