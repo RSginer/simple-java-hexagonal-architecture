@@ -1,4 +1,4 @@
-package app.printing;
+package app.printing.Infrastructure;
 
 import app.printing.Infrastructure.Controller.FindAndPrintAllBooksController;
 import app.printing.Infrastructure.Book.Service.Find.InMemory.FindBooksInMemory;
