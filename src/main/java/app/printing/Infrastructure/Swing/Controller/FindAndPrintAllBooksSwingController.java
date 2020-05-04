@@ -1,11 +1,11 @@
-package app.printing.Infrastructure.Controller;
+package app.printing.Infrastructure.Swing.Controller;
 
 import app.printing.Application.Book.FindAndPrintAllBooks;
 
-public final class FindAndPrintAllBooksController {
+public final class FindAndPrintAllBooksSwingController {
     private final FindAndPrintAllBooks findAndPrintAllBooksService;
 
-    public FindAndPrintAllBooksController(FindAndPrintAllBooks findAndPrintAllBooksService) {
+    public FindAndPrintAllBooksSwingController(FindAndPrintAllBooks findAndPrintAllBooksService) {
         this.findAndPrintAllBooksService = findAndPrintAllBooksService;
     }
 

@@ -1,8 +1,8 @@
 package app.printing.Infrastructure;
 
-import app.printing.Infrastructure.Controller.FindAndPrintAllBooksController;
 import app.printing.Infrastructure.Book.Service.Find.InMemory.FindBooksInMemory;
 import app.printing.Infrastructure.Printer.Html.StandardOutputHtmlPrinter;
+import app.printing.Infrastructure.Swing.Controller.FindAndPrintAllBooksSwingController;
 
 import app.printing.Application.Book.FindAndPrintAllBooks;
 
@@ -13,7 +13,7 @@ import javax.swing.*;
 
 public class Main {
 
-    public static FindAndPrintAllBooksController findAndPrintAllBooksController = new FindAndPrintAllBooksController(
+    public static FindAndPrintAllBooksSwingController findAndPrintAllBooksController = new FindAndPrintAllBooksSwingController(
             new FindAndPrintAllBooks(
                     new BookPrinter(new StandardOutputHtmlPrinter()),
                     new BooksFinder(new FindBooksInMemory())
