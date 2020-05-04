@@ -12,4 +12,5 @@ public final class FindAndPrintAllBooksController {
     public void findAndPrintAllBooks() {
         this.findAndPrintAllBooksService.findAndPrintAllBooks();
     }
+
 }

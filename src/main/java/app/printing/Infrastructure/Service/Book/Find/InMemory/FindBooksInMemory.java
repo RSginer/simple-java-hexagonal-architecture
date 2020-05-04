@@ -14,7 +14,9 @@ public class FindBooksInMemory implements FindBooksRepository {
                 new Book(UUID.randomUUID().toString(), "Clean Architecture", "Read this shit."))
         );
     }
+
     public Optional<List<Book>> find() {
         return Optional.ofNullable(this.books);
     }
+
 }

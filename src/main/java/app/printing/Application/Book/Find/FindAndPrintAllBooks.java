@@ -18,10 +18,12 @@ public final class FindAndPrintAllBooks {
 
     public void findAndPrintAllBooks() {
         Optional<List<Book>> books = booksFinder.findBooks();
+
         if (books.isPresent()) {
             for (Book book : books.get()) {
                 this.bookPrinter.printBook(book);
             }
         }
     }
+
 }
