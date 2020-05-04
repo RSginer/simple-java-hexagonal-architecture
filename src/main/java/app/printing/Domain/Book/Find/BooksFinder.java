@@ -12,7 +12,7 @@ public class BooksFinder {
         this.finder = finder;
     }
 
-    public Optional<List<Book>> getBooks() {
+    public Optional<List<Book>> findBooks() {
         return this.finder.find();
     }
 }
