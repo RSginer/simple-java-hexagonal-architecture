@@ -13,7 +13,6 @@ import javax.swing.*;
 
 public class Main {
 
-    // This should be inyected by Dependency Inyection system. That's just for the example.
     public static FindAndPrintAllBooksController findAndPrintAllBooksController = new FindAndPrintAllBooksController(
             new FindAndPrintAllBooks(
                     new BookPrinter(new StandardOutputHtmlPrinter()),
