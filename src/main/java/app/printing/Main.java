@@ -30,7 +30,7 @@ public class Main {
             option = Integer.parseInt(
                     JOptionPane.showInputDialog(
                             null,
-                            " 1. Read books \n 2. Exit \n\n Choose an option",
+                            " 1. Print all books \n 2. Exit \n\n Choose an option",
                             JOptionPane.QUESTION_MESSAGE
                     )
             );
