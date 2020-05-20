@@ -1,6 +1,7 @@
-package app.printing.Domain.Book.Service.Print;
+package app.printing.Printer.Domain.Service;
 
-import app.printing.Domain.Book.Book;
+import app.printing.Book.Domain.Book;
+import app.printing.Printer.Domain.Printer;
 
 public final class BookPrinter {
     public final Printer printer;

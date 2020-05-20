@@ -1,4 +1,4 @@
-package app.printing.Domain.Book;
+package app.printing.Book.Domain;
 
 public class Book {
     private final String id;

@@ -1,7 +1,7 @@
-package app.printing.Infrastructure.Printer.Html;
+package app.printing.Printer.Infrastructure.Html;
 
-import app.printing.Domain.Book.Service.Print.Printer;
-import app.printing.Domain.Book.Book;
+import app.printing.Printer.Domain.Printer;
+import app.printing.Book.Domain.Book;
 
 public final class StandardOutputHtmlPrinter implements Printer {
     public void print(Book book) {

@@ -1,7 +1,7 @@
-package app.printing.Infrastructure.Book.Service.Find.InMemory;
+package app.printing.Book.Infrastructure.Find.InMemory;
 
-import app.printing.Domain.Book.Book;
-import app.printing.Domain.Book.Service.Find.FindBooksRepository;
+import app.printing.Book.Domain.Book;
+import app.printing.Book.Domain.Service.Find.FindBooksRepository;
 
 import java.util.*;
 
